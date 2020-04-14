@@ -1,5 +1,19 @@
 package Dao;
 
-public class ConceptoDao {
+import Entities.Concepto;
+import Util.Conexion;
 
+
+
+public class ConceptoDao extends Conexion<Concepto> implements GenericDao<Concepto>{
+	
+	
+	public ConceptoDao() {
+		super(Concepto.class);
+	}
+
+
+	
+	
+	
 }

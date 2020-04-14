@@ -91,4 +91,11 @@ public class Concepto implements Serializable {
 		return liquidacion;
 	}
 
+	@Override
+	public String toString() {
+		return "Concepto [codconcepto=" + codconcepto + ", descripcion=" + descripcion + ", tipoconcepto="
+				+ tipoconcepto + ", tercero=" + tercero + ", liquidacions=" + liquidacions + "]";
+	}
+	
+
 }

@@ -108,4 +108,13 @@ public class Empleado implements Serializable {
 		return liquidacion;
 	}
 
+	@Override
+	public String toString() {
+		return "Empleado [codigo=" + codigo + ", cedula=" + cedula + ", fechaingreso=" + fechaingreso
+				+ ", fechanacimiento=" + fechanacimiento + ", fecharetiro=" + fecharetiro + ", nombre=" + nombre
+				+ ", liquidacions=" + liquidacions + "]";
+	}
+	
+	
+
 }

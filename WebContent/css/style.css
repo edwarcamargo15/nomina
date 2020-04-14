@@ -1,0 +1,55 @@
+body {
+    background: url(../imagenes/nomina.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fondo {
+    background: url(../imagenes/fondo.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.button {
+    margin: 10px;
+    width: 100%;
+    margin: 150px 60% 0px 60%;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.col-2 {
+    margin: 10px;
+    width: 100%;
+    margin: 150px 60% 0px 60%;
+}
+
+.form-group button {
+    margin-left: 60px;
+}
+
+.form-group a {
+    color: white;
+}
+
+.form-registro {
+    margin: 0 auto;
+    align-content: center;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.form-registro button {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
